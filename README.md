@@ -21,9 +21,9 @@
 |--------|--------|
 | 1 | [Basics](#basics)|
 | 2 | [Adding and Changing Things](#adding-and-changing-things)  |
-| 3 | [Undo Changes and Recover Files](#undo Changes and Recover Files)   |
-| 4 | [Viewing Commits](#viewing Commits)  |
-| 5 | [Branch and Merge](#branch and Merge) |
+| 3 | [Undo Changes and Recover Files](#undo-changes-and-recover-files)   |
+| 4 | [Viewing Commits](#viewing-commits)  |
+| 5 | [Branch and Merge](#branch-and-merge) |
 | 6 | [Favorites](#favorites) |
 | 7 | [Resources](#resources) |
 
