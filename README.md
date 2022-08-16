@@ -225,9 +225,9 @@ test/
      changes other users have made.
      
 ## Favorites
-***(a) Git task I would like to remember or think is really useful:*** I think the most useful git task for me is the </br>task for correcting mistakes on the repository such as, remove data or change file names.
+***(a) Git task I would like to remember or think is really useful:*** I think the most useful git task for me is the </br>task for correcting mistakes on the repository such as, removing data or changing file names.
    
-***(b) Git commands of that task:*** To remove data on repository use `git rm <file_name>`, to move or rename files </br>on repository use `git mv <file_name> <other_file>`
+***(b) Git commands of that task:*** To remove data on repository use `git rm <file_name>`, to move or rename </br>files on repository use `git mv <file_name> <other_file>`
 
 
 
