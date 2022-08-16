@@ -21,9 +21,9 @@
 |--------|--------|
 | 1 | [Basics](#basics)|
 | 2 | [Adding and Changing Things](#adding-and-changing-things)  |
-| 3 | [Undo Changes and Recover Files](#Undo Changes and Recover Files)   |
-| 4 | [Viewing Commits](#Viewing Commits)  |
-| 5 | [Branch and Merge](#Branch and Merge) |
+| 3 | [Undo Changes and Recover Files](#undo Changes and Recover Files)   |
+| 4 | [Viewing Commits](#viewing Commits)  |
+| 5 | [Branch and Merge](#branch and Merge) |
 | 6 | [Favorites](#favorites) |
 | 7 | [Resources](#resources) |
 
@@ -44,10 +44,10 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
    # Git configuration commands for a new account
    
    1.Tell git your name
-   Answer: git config --global user.name "your_username"
+   git config --global user.name "your_username"
    
    2.Tell git your email
-   Answer: git config --global user.email "your_email_address"
+   git config --global user.email "your_email_address"
    ```
 
 3. There are 2 ways to create a local Git repository.  What are they?
@@ -113,22 +113,18 @@ test/
    git mv src/b.py
    git mv src/c.py
    ```
-
 8. Commit this change with the message "moved src directory":
    ```
    git commit -m "moved src directory"
    ```
-
 9. Command to add **all changed files** (but not untracked files) to the staging area using a single command.
    ```
    git add -u
    ```
-
 10. **Delete** the file `c.py` from your working copy **and** the repository:
    ```
    git rm c.py
    ```
-
 ## Undo Changes and Recover Files
 
 1. Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
@@ -176,7 +172,6 @@ test/
    git log --oneline
    ```
 * Some versions of git have an *alias* "log1" for this (`git log1`).
-</br>
 2. Show the history (as above) including *all* branches in the repository and include a graph connecting the commits:
    ```
    git log --oneline --decorate --graph
@@ -239,7 +234,8 @@ test/
 ---
 ## Resources
 
-####My favorite Git resources.
+#### My favorite Git resources.
+
    * [Atlassian Git Tutorial](https://www.atlassian.com/git)
    * [Git Tower](https://www.git-tower.com/learn/git/ebook/)
    * [Pro Git](https://git-scm.com/book/en/v2)
