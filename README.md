@@ -122,9 +122,9 @@ test/
    git add -u
    ```
 10. **Delete** the file `c.py` from your working copy **and** the repository:
-   ```
-   git rm c.py
-   ```
+    ```
+    git rm c.py
+    ```
 ## Undo Changes and Recover Files
 
 1. Display the differences between your *working copy* of `a.py` and the `a.py` in the *local repository* (HEAD revision):
