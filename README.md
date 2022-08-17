@@ -1,7 +1,7 @@
-# The Ultimate Guide to using Git
+# Quick Guide to Git
 
 
-***For the Impatient.***
+***By Tanabodee Yambangyang***
 
 ## Using Git
 
