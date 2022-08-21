@@ -23,7 +23,7 @@
    ```
    Explain this error.
    > This error happens when you didn't configure git in such a way that it creates a new branch on the remote.
-   > And, you can fix it by typing </br>`git push -u origin master`.
+   > And, you can fix it by typing `git push -u origin master`.
    
 
 4. The command to push `dev-foo` to `origin` as a **new remote branch** on `origin` is:
