@@ -14,8 +14,10 @@
 | 3 | [Undo Changes and Recover Files](#undo-changes-and-recover-files)   |
 | 4 | [Viewing Commits](#viewing-commits)  |
 | 5 | [Branch and Merge](#branch-and-merge) |
-| 6 | [Favorites](#favorites) |
-| 7 | [Resources](#resources) |
+| 6 | [Commands for Remotes](remote-commands.md) |
+| 7 | [Favorites](#favorites) |
+| 8 | [Resources](#resources) |
+
 
 #### Note on Paths
 
@@ -42,14 +44,14 @@ In this file, directory paths are written with a forward slash as on MacOS, Linu
 
 3. There are 2 ways to create a local Git repository.  What are they?
    
-   - ***Initializing a Repository in an Existing Directory:*** If you want to get controlling your project with Git. You can create a new empty Git repository by going to your project’s directory and then type `git init` command. You can then add your files by typing `git add` and finally using `git commit` to commit all your files.   
+   > ***1.Initializing a Repository in an Existing Directory:*** If you want to get controlling your project with Git. You can create a new empty Git repository by going to your project’s directory and then type `git init` command. You can then add your files by typing `git add` and finally using `git commit` to commit all your files.   
    
-   - ***Cloning an Existing Repository:*** If you want to get a copy of an existing Git repository. You can use `git clone <url>` that'll create a directory initializes a `.git` directory inside it and pulls down all the data for that repository.
+   > ***2.Cloning an Existing Repository:*** If you want to get a copy of an existing Git repository. You can use `git clone <url>` that'll create a directory initializes a `.git` directory inside it and pulls down all the data for that repository.
    
 
 4. When you create a git repository by entering `git init`, Git will create a "hidden" directory for the local repository.  Where is the directory for this local repository (relative to the directory where you typed "git init")?
    
-   - ***Answer:*** When you type `git init`. Git will create a hidden directory in the project root folder.
+   > ***Answer:*** When you type `git init`. Git will create a hidden directory in the project root folder.
 
 
 ## Adding and Changing Things
@@ -95,8 +97,9 @@ test/
    git commit
    ```
 6. Describe 2 steps to configure the repository so git will ignore all files in the `out/` directory:
-   - ***step one:*** Create a file name `.gitignore` in your directory
-   - ***step two:*** Type `out/` in `.gitignore` file, and git will ignore all files that have been typed in `.gitignore`. So, git will ignore `out/`
+   >***step one:*** Create a file name `.gitignore` in your directory
+   
+   > ***step two:*** Type `out/` in `.gitignore` file, and git will ignore all files that have been typed in `.gitignore`. So, git will ignore `out/`
 7. Command to move all the .py files from `src` to the top-level directory of this repository, so they are also moved in the Git repo.
    ```
    git mv src/a.py
@@ -211,13 +214,13 @@ test/
       ```
    
 6. Describe under what conditions a merge may fail.
-   * `git merge` may fail because the user has committed changes that conflict with the committed 
-     changes other users have made.
+   >`git merge` may fail because the user has committed changes that conflict with the committed 
+   > changes other users have made.
      
 ## Favorites
-***(a) Git task I would like to remember or think is really useful:*** I think the most useful git task for me is the </br>task for correcting mistakes on the repository such as, removing data or changing file names.
+> ***(a) Git task I would like to remember or think is really useful:*** I think the most useful git task for me is the </br>task for correcting mistakes on the repository such as, removing data or changing file names.
    
-***(b) Git commands of that task:*** To remove data on repository use `git rm <file_name>`, to move or rename </br>files on repository use `git mv <file_name> <other_file>`
+> ***(b) Git commands of that task:*** To remove data on repository use `git rm <file_name>`, to move or rename </br>files on repository use `git mv <file_name> <other_file>`
 
 
 
